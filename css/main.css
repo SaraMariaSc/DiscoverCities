@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+}
+.hero{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1479030160180-b1860951d696?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjc1MDg0fQ&auto=format&fit=crop&w=1350&q=80');
+    width: 99vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    text-align: center;
+    color: white;
+}
+ 
+.hero h1{
+    font-size: 5em;
+    
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+header img {
+    height: 60px;
+    margin-left: 40px;
+}
+
+header li {
+    margin: 20px;
+}
+
+header li a {
+    color: black;
+    text-decoration: none;
+}
+
+header * {
+    display: inline;
+}
+
+header {
+
+    font-family: 'Nunito Sans', Arial;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+}
+.flexContainerB{
+    display: flex;
+    flex-direction: column;
+}
+
+.flexItemPhoto {
+    padding: 30px;
+    /* You may need to add some more properties...*/
+  }
+  .flexItemText {
+    padding: 30px;
+    width: 700px;
+    
+    /* You may need to add some more properties...*/
+  }
+.flexContainerA {
+    /* Your code here */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.flexItemText p{
+    font-size: large;
+    font-family: 'Nunito Sans', Arial;
+}
+
+.flexItemText h4{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Nunito Sans', Arial;
+    padding-bottom: 0%;
+}
+
+h3{
+    font-family: 'Rubik', Arial;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(0, 132, 165);
+}
+
+footer{
+    padding: 3%;
+    background-color: rgb(221, 252, 255);
+}
